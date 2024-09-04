@@ -1,111 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <!-- next meta, tells the browser to use the most modern version, standards-compliant rendering mode available -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- link between html and css  -->
-  <link rel="stylesheet" href="css/main.css">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- link between html and css  -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Render All Elements Normally -->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <!-- Font Awesome Library -->
     <link rel="stylesheet" href="css/all.min.css" />
-
- 
-</head>
-<body>
-
-  <div class="all">
-
-<header>
-  <div class="container">
-    <div class="logo">
-      <img src="images/logo.svg" alt="pic"/>
-      <ul id="list">
-        <li id="Features">
-          Features 
-          <img src="images/icon-arrow-down.svg" alt="pic">
-<div class="hidden" id="box4">
-  <ul class="four">
-    <li>
-      <img src="images/icon-todo.svg" alt="pic">
-      Todo List
-    </li>
-    <li>
-      <img src="images/icon-calendar.svg" alt="pic">
-      Calendar
-    </li>
-    <li>
-      <img src="images/icon-reminders.svg" alt="pic">
-      Reminders
-    </li>
-    <li>
-      <img src="images/icon-planning.svg" alt="pic">
-      Planning
-    </li>
-   </ul>
-</div>
-        </li>
-        <li id="Company">
-          Company 
-          <img src="images/icon-arrow-down.svg" alt="pic">
-          <div class=" hidden" id="box3">
-            <ul class="three">
-              <li>History</li>
-              <li>Our Team</li>
-              <li>Blog</li>
+  </head>
+  <body>
+    <div class="all">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img loading="lazy" src="images/logo.svg" alt="logo icon" />
+            <ul id="list">
+              <li id="Features">
+                Features
+                <img
+                  loading="lazy"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow to down icon"
+                />
+                <div class="hidden" id="box4">
+                  <ul class="four">
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="images/icon-todo.svg"
+                        alt="todo icon"
+                      />
+                      Todo List
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="images/icon-calendar.svg"
+                        alt="calendar icon"
+                      />
+                      Calendar
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="images/icon-reminders.svg"
+                        alt="reminders icon"
+                      />
+                      Reminders
+                    </li>
+                    <li>
+                      <img
+                        loading="lazy"
+                        src="images/icon-planning.svg"
+                        alt="planning icon"
+                      />
+                      Planning
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li id="Company">
+                Company
+                <img
+                  loading="lazy"
+                  src="images/icon-arrow-down.svg"
+                  alt="arrow to down icon"
+                />
+                <div class="hidden" id="box3">
+                  <ul class="three">
+                    <li>History</li>
+                    <li>Our Team</li>
+                    <li>Blog</li>
+                  </ul>
+                </div>
+              </li>
+              <li>Careers</li>
+              <li>About</li>
             </ul>
           </div>
-        </li>
-        <li >Careers</li>
-        <li >About</li>
-      </ul>
+
+          <div class="buttons" id="buttons">
+            <button>Login</button>
+            <button>Register</button>
+          </div>
+          <i class="fa-solid fa-bars icon" id="icon"></i>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div class="text">
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button>Learn more</button>
+            <div class="pics">
+              <img
+                loading="lazy"
+                src="images/client-databiz.svg"
+                alt="client-databiz icon"
+              />
+              <img
+                loading="lazy"
+                src="images/client-audiophile.svg"
+                alt="client-audiophile icon"
+              />
+              <img
+                loading="lazy"
+                src="images/client-meet.svg"
+                alt="client-meet icon"
+              />
+              <img
+                loading="lazy"
+                src="images/client-maker.svg"
+                alt="client-maker icon"
+              />
+            </div>
+          </div>
+
+          <div class="pic">
+            <img
+              loading="lazy"
+              src="images/image-hero-desktop.png"
+              alt="man pic, main desktop image"
+            />
+          </div>
+        </div>
+      </section>
     </div>
-
-    <div class="buttons" id="buttons">
-      <button>Login</button>
-    <button>Register</button>
-    </div>
-    <i class="fa-solid fa-bars icon" id="icon"></i>
-
-  </div>
-</header>
-<section>
-  
-
-
-  <div class="container">
-    <div class="text">
-      <h1>Make remote work</h1>
-      <p>Get your team in sync, no matter your location. Streamline processes, 
-        create team rituals, and watch productivity soar.
-      </p>
-      <button>Learn more</button>
-      <div class="pics">
-        <img src="images/client-databiz.svg" alt="pic">
-        <img src="images/client-audiophile.svg" alt="pic">
-        <img src="images/client-meet.svg" alt="pic">
-        <img src="images/client-maker.svg" alt="pic">
-      </div>
-    </div>
-
-    <div class="pic">
-      <img src="images/image-hero-desktop.png" alt="pic">
-    </div>
-  </div>
-  
-</section> 
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
