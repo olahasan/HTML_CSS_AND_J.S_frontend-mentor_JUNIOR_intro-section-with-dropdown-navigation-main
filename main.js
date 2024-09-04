@@ -1,3 +1,5 @@
+// for begginer
+
 // let Features = document.getElementById("Features");
 // let Company = document.getElementById("Company");
 // let box3 = document.getElementById("box3");
@@ -26,6 +28,8 @@
 //   list.style.display = "block";
 //   buttons.style.display = "block";
 // };
+//////////////////////////////////////////////////////////////////////////////////
+// using event delegation
 
 // Get elements by their IDs
 const Features = document.getElementById("Features");
@@ -35,21 +39,19 @@ const box4 = document.getElementById("box4");
 const list = document.getElementById("list");
 const icon = document.getElementById("icon");
 const buttons = document.getElementById("buttons");
-
 // Get arrow images inside list items
 const featureArrow = Features.querySelector("img");
 const companyArrow = Company.querySelector("img");
 
-// Debugging: Log elements to the console
-console.log(Features);
-console.log(Company);
-console.log(box3);
-console.log(box4);
-console.log(list);
-console.log(icon);
-console.log(buttons);
-console.log(featureArrow);
-console.log(companyArrow);
+// console.log(Features);
+// console.log(Company);
+// console.log(box3);
+// console.log(box4);
+// console.log(list);
+// console.log(icon);
+// console.log(buttons);
+// console.log(featureArrow);
+// console.log(companyArrow);
 
 // Event delegation to handle click events
 document.addEventListener("click", function (event) {
